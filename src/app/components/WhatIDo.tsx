@@ -5,7 +5,7 @@ const WhatIDo = () => {
     return (
         <main className="grid gap-5">
             <div className="flex flex-col gap-2">
-                <h1 className="text-2xl md:text-3xl font-bold text-litewhite">What I Do!?</h1>
+                <h1 className="text-2xl md:text-[28px] font-bold text-litewhite">What I Do!?</h1>
                 <div className="bg-vegas-gold h-[5px] w-[60px] rounded-full"></div>
             </div>
 
