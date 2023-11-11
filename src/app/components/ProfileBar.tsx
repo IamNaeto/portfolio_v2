@@ -64,11 +64,11 @@ const ProfileBar = () => {
             </div>
 
             {isMenuOpen ? 
-            <MdOutlineKeyboardArrowUp className="absolute top-0 right-0 p-2 sm:p-3 text-5xl text-vegas-gold bg-smoky-black hover:bg-jet rounded-tr-lg rounded-bl-lg shadow-sm shadow-vegas-gold flex xl:hidden cursor-pointer"
+            <MdOutlineKeyboardArrowUp className="absolute top-0 right-0 p-2 sm:p-3 text-4xl md:text-5xl text-vegas-gold bg-smoky-black hover:bg-jet rounded-tr-lg rounded-bl-lg shadow-sm shadow-vegas-gold flex xl:hidden cursor-pointer"
             onClick={toggleMenu}
             />
             :
-            <MdOutlineKeyboardArrowDown className="absolute top-0 right-0 p-2 sm:p-3 text-5xl text-vegas-gold bg-smoky-black hover:bg-jet rounded-tr-lg rounded-bl-lg shadow-sm shadow-vegas-gold flex xl:hidden cursor-pointer"
+            <MdOutlineKeyboardArrowDown className="absolute top-0 right-0 p-2 sm:p-3 text-4xl md:text-5xl text-vegas-gold bg-smoky-black hover:bg-jet rounded-tr-lg rounded-bl-lg shadow-sm shadow-vegas-gold flex xl:hidden cursor-pointer"
             onClick={toggleMenu}
             />
             }
