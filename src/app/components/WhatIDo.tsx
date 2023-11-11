@@ -38,7 +38,7 @@ const WhatIDo = () => {
                     <FaChartLine className="text-3xl text-vegas-gold font-medium" />
                     <div className="flex flex-col items-center text-center">
                         <h1 className="text-lg md:text-xl text-litewhite font-bold">Search Engine Optimization</h1>
-                        <p className="text-[13px] md:text-[15px] text-litewhite">SEO is a strategic and dynamic process that involves a comprehensive approach to enhancing a website's online presence. When I optimize a website for search engines, I engage in a thorough analysis of its structure, content, and performance. This involves refining the website's code, improving its loading speed, and ensuring it is mobile-friendly.</p>
+                        <p className="text-[13px] md:text-[15px] text-litewhite">SEO is a strategic and dynamic process that involves a comprehensive approach to enhancing a website&apos;s online presence. When I optimize a website for search engines, I engage in a thorough analysis of its structure, content, and performance. This involves refining the website&apos;s code, improving its loading speed, and ensuring it is mobile-friendly.</p>
                     </div>
                 </div>
             </div>
