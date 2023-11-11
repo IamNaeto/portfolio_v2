@@ -98,7 +98,7 @@ const MyJourney = () => {
                     <FiBookOpen className="absolute top-[-15px] left-[-25px] p-2 rounded-xl text-vegas-gold bg-smoky-black border border-jet border-solid text-5xl"/>
 
                     <div className="relative grid gap-2">
-                        <h3 className="text-[16px] md:text-[17px] text-litewhite font-bold" data-aos="fade-down">Let's Upgrade</h3>
+                        <h3 className="text-[16px] md:text-[17px] text-litewhite font-bold" data-aos="fade-down">Let&apos;s Upgrade</h3>
                         <h4 className="text-[13px] md:text-[15px] text-litewhite" data-aos="fade-down">Python Programming Essentials</h4>
                         <h4 className="text-[13px] md:text-[15px] text-litewhite" data-aos="fade-down">JavaScript Programming Essentials</h4>
                         <h4 className="text-[13px] md:text-[15px] text-litewhite" data-aos="fade-down">HTML/CSS Programming Essentials</h4>
