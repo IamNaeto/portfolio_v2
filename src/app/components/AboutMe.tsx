@@ -4,7 +4,7 @@ import Skills from "./Skills";
 
 const AboutMe = () => {
     return (
-        <main className="relative ml-0 xl:ml-[26%] xl:right-0 w-full xl:w-[74%] bg-eerie-black rounded-lg border border-jet border-solid shadow-sm shadow-jet p-5 flex flex-col gap-10 mt-5 xl:mt-0 pb-10 xl:mb-0 mb-10 overflow-hidden">
+        <main className="relative ml-0 xl:ml-[26%] xl:right-0 w-full xl:w-[74%] bg-eerie-black rounded-lg border border-jet border-solid shadow-sm shadow-jet p-5 flex flex-col gap-10 mt-5 xl:mt-0 pb-10 xl:mb-0 mb-[4rem] overflow-hidden">
             <NavBar />
 
             <section className="flex flex-col gap-5">
