@@ -25,7 +25,7 @@ const config: Config = {
         'bittersweet-shimmer': '#FF6E84',
       },
       backgroundImage: {
-        'smoky-black': '#111111',
+        'smoky-black': '#121212',
         'eerie-black': '#1e1e1f',
         'smoky-gray': '#39393a',
       },
