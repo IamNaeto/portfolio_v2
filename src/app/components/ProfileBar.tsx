@@ -17,7 +17,7 @@ const ProfileBar = () => {
         <aside className="relative xl:fixed w-full xl:w-[24%] bg-eerie-black rounded-lg border border-jet border-solid shadow-sm shadow-jet py-3 px-5 flex flex-col gap-4 mt-5 md:mt-0">
             <div className="flex flex-row xl:flex-col items-center justify-start xl:justify-center gap-2">
                 <div className="w-[25%] xl:w-full flex items-center justify-center">
-                    <Image src="/img/Naeto.jpg" width={200} height={200} alt="Charles O. Egesionu Image" className="w-full xl:w-[60%] rounded-lg" />
+                    <Image src="/img/Naeto.jpg" width={200} height={200} alt="Charles O. Egesionu Image" className="w-full xl:w-[60%] rounded-lg" loading="lazy"/>
                 </div>
 
                 <div className="flex flex-col items-start xl:items-center gap-2">
