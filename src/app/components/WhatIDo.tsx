@@ -5,12 +5,12 @@ const WhatIDo = () => {
     return (
         <main className="grid gap-5">
             <div className="flex flex-col gap-2">
-                <h1 className="text-2xl md:text-[28px] font-bold text-litewhite">What I Do!?</h1>
-                <div className="bg-vegas-gold h-[5px] w-[60px] rounded-full"></div>
+                <h1 className="text-2xl md:text-[28px] font-bold text-litewhite" data-aos="fade-down">What I Do!?</h1>
+                <div className="bg-vegas-gold h-[5px] w-[60px] rounded-full" data-aos="fade-down"></div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                <div className="flex flex-col items-center justify-center p-4 rounded-lg shadow-sm shadow-jet border border-jet border-solid bg-smoky-black">
+                <div className="flex flex-col items-center justify-center p-4 rounded-lg shadow-sm shadow-jet border border-jet border-solid bg-smoky-black" data-aos="fade-down">
                     <AiFillSetting className="text-3xl text-vegas-gold font-medium" />
                     <div className="flex flex-col items-center text-center">
                         <h1 className="text-lg md:text-xl text-litewhite font-bold">Software Engineering</h1>
@@ -18,7 +18,7 @@ const WhatIDo = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col items-center justify-center p-4 rounded-lg shadow-sm shadow-jet border border-jet border-solid bg-smoky-black">
+                <div className="flex flex-col items-center justify-center p-4 rounded-lg shadow-sm shadow-jet border border-jet border-solid bg-smoky-black" data-aos="fade-down">
                     <FaCode className="text-3xl text-vegas-gold font-medium" />
                     <div className="flex flex-col items-center text-center">
                         <h1 className="text-lg md:text-xl text-litewhite font-bold">Web Development</h1>
@@ -26,7 +26,7 @@ const WhatIDo = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col items-center justify-center p-4 rounded-lg shadow-sm shadow-jet border border-jet border-solid bg-smoky-black">
+                <div className="flex flex-col items-center justify-center p-4 rounded-lg shadow-sm shadow-jet border border-jet border-solid bg-smoky-black" data-aos="fade-down">
                     <FaWandMagicSparkles className="text-3xl text-vegas-gold font-medium" />
                     <div className="flex flex-col items-center text-center">
                         <h1 className="text-lg md:text-xl text-litewhite font-bold">UI/UX Designing</h1>
@@ -34,7 +34,7 @@ const WhatIDo = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col items-center justify-center p-4 rounded-lg shadow-sm shadow-jet border border-jet border-solid bg-smoky-black">
+                <div className="flex flex-col items-center justify-center p-4 rounded-lg shadow-sm shadow-jet border border-jet border-solid bg-smoky-black" data-aos="fade-down">
                     <FaChartLine className="text-3xl text-vegas-gold font-medium" />
                     <div className="flex flex-col items-center text-center">
                         <h1 className="text-lg md:text-xl text-litewhite font-bold">Search Engine Optimization</h1>
