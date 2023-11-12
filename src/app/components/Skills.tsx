@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaBootstrap, FaSass, FaReact, FaFigma } from "react-icons/fa6";
+import { FaHtml5, FaCss3Alt, FaBootstrap, FaSass, FaReact, FaFigma, FaGithub, FaGitAlt } from "react-icons/fa6";
 import { IoLogoJavascript  } from "react-icons/io5";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiTypescript, SiTailwindcss, SiUnocss, SiFirebase, SiPostman, SiPython, SiNpm, SiYarn, SiCanva } from "react-icons/si";
@@ -7,7 +7,7 @@ const Skills = () => {
     return ( 
         <main className="grid gap-5">
             <div className="flex flex-col gap-2">
-                <h1 className="text-2xl md:text-[28px] font-bold text-litewhite" data-aos="fade-down">Stacks and Frameworks</h1>
+                <h1 className="text-2xl md:text-[28px] font-bold text-litewhite" data-aos="fade-down">Stack and Tools</h1>
                 <div className="bg-vegas-gold h-[5px] w-[60px] rounded-full" data-aos="fade-down"></div>
             </div>
 
@@ -75,6 +75,16 @@ const Skills = () => {
                <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
                     <SiPython className="text-3xl text-vegas-gold"/>
                     <h1 className="text-litewhite text-sm md:text-lg font-bold">Python</h1>
+               </div>
+
+               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
+                    <FaGithub className="text-3xl text-vegas-gold"/>
+                    <h1 className="text-litewhite text-sm md:text-lg font-bold">GitHub</h1>
+               </div>
+
+               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
+                    <FaGitAlt className="text-3xl text-vegas-gold"/>
+                    <h1 className="text-litewhite text-sm md:text-lg font-bold">Git</h1>
                </div>
 
                <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
