@@ -31,7 +31,7 @@ const MyProjects = () => {
                 {ProjectData.map((project, index) => (
                     <div
                         key={project.id}
-                        className="relative flex flex-col items-center justify-center p-4 rounded-lg shadow-sm shadow-jet border border-jet border-solid bg-smoky-black gap-3"
+                        className="relative flex flex-col items-center justify-center p-4 rounded-lg shadow-sm shadow-jet border border-jet border-solid bg-smoky-black gap-3 pb-8 lg:pb-4"
                         data-aos="fade-down"
                     >
                         <Image
