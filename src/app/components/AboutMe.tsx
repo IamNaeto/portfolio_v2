@@ -2,31 +2,14 @@ import NavBar from "./NavBar";
 import WhatIDo from "./WhatIDo";
 import Skills from "./Skills";
 import WordsonMarble from "./WordsOnMarble";
-import Loader from "./Loader";
-import React, { useEffect, useState } from 'react';
+import { AOSInit } from "./AOS";
 
 const AboutMe = () => {
-    const [loading, setLoading] = useState(true);
-
-    useEffect(() => {
-        // Simulate data fetching or any asynchronous operation
-        const fetchData = async () => {
-            // Assume fetching takes 2 seconds
-            await new Promise(resolve => setTimeout(resolve, 2000));
-            setLoading(false);
-        };
-
-        fetchData();
-    }, []);
-
+    AOSInit();
     return (
         <main className="relative ml-0 xl:ml-[26%] xl:right-0 w-full xl:w-[74%] bg-eerie-black rounded-lg border border-jet border-solid shadow-sm shadow-jet p-5 flex flex-col gap-10 mt-5 xl:mt-0 pb-10 xl:mb-0 mb-[4rem] overflow-hidden">
             <NavBar />
 
-            {loading ? (
-                <Loader />
-            ) : (
-                <section>
                     <section className="flex flex-col gap-5">
                         <div className="flex flex-col gap-2">
                             <h1 className="text-2xl md:text-[28px] font-bold text-litewhite" data-aos="fade-down">About Me</h1>
@@ -40,8 +23,6 @@ const AboutMe = () => {
                     <Skills />
 
                     <WordsonMarble />
-                </section>
-            )}
         </main>
     );
 }

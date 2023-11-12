@@ -5,7 +5,7 @@ const NavBar = () => {
     const pathName = usePathname()
     return (
         <header className="fixed xl:absolute bottom-0 xl:bottom-auto left-0 xl:left-auto xl:top-0 xl:right-0 flex items-center xl:items-end justify-center xl:justify-end w-full xl:w-[400px] rounded-lt-xl  rounded-rt-xl z-50">
-            <nav className="relative flex items-center justify-center text-[16px] font-medium text-litewhite gap-7 xl:gap-10 rounded-bl-none xl:rounded-bl-xl rounded-tr-xl xl:rounded-tr-lg rounded-tl-xl xl:rounded-tl-none  border border-jet border-solid p-4 backdrop-blur-xl bg-transparent xl:bg-smoky-gray shadow-sm w-full z-36">
+            <nav className="relative flex items-center justify-center text-[16px] font-medium text-litewhite gap-7 xl:gap-10 rounded-bl-none xl:rounded-bl-xl rounded-tr-xl xl:rounded-tr-lg rounded-tl-xl xl:rounded-tl-none  border border-jet border-solid p-4 backdrop-blur-lg bg-transparent xl:bg-smoky-gray shadow-sm w-full z-36">
                 <Link href="/" className={pathName === "/" ? "visited:text-vegas-gold font-bold transition-all delay-200" : "hover:text-gray transition-all delay-200"}>About</Link>
                 <Link href="/journey" className={pathName === "/journey" ? "visited:text-vegas-gold font-bold transition-all delay-200" : "hover:text-gray transition-all delay-200"}>Journey</Link>
                 <Link href="/projects" className={pathName === "/projects" ? "visited:text-vegas-gold font-bold transition-all delay-200" : "hover:text-gray transition-all delay-200"}>Projects</Link>
