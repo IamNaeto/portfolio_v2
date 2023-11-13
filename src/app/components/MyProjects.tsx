@@ -17,7 +17,7 @@ const MyProjects = () => {
     };
 
     return (
-        <main className="relative ml-0 xl:ml-[26%] xl:right-0 w-full xl:w-[74%] bg-eerie-black rounded-lg border border-jet border-solid shadow-sm shadow-jet p-5 flex flex-col gap-10 mt-5 xl:mt-0 pb-10 xl:mb-0 mb-20 overflow-hidden">
+        <main className="relative ml-0 lg:ml-[26%] lg:right-0 w-full lg:w-[74%] bg-eerie-black rounded-lg border border-jet border-solid shadow-sm shadow-jet p-5 flex flex-col gap-10 mt-5 lg:mt-0 pb-10 lg:mb-0 mb-20 overflow-hidden">
             <NavBar />
 
             <section className="flex flex-col gap-5">
@@ -75,7 +75,7 @@ const MyProjects = () => {
             </div>
 
             <div className="flex flex-col items-center justify-center gap-2">
-                <h4 className="text-[15px] md:text-[16px] text-litewhite font-bold font-italic text-center">More Project!?</h4>
+                <h4 className="text-[15px] md:text-[16px] text-litewhite font-bold font-italic text-center">More Projects!?</h4>
                 <a href="https://github.com/IamNaeto?tab=repositories" target="_blank" className="py-[8px] px-6 rounded-md text-smoky-black hover:text-vegas-gold bg-vegas-gold hover:bg-smoky-black hover:border-jet border border-solid text-[12px] md:text-[14px] font-bold transition-all delay-200 flex items-center justify-center">GitHub <BiLogoGithub className="ml-1 animate-bounce"/> </a>
             </div>
         </main>

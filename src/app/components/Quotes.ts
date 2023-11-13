@@ -134,9 +134,9 @@ interface MixedQuote {
     },
     {
       id: 22,
-      category: "Life Quote",
-      quote: "If at first you didn't succeed, call it version one.",
-      author: "Unknown Author",
+      category: "Development Quote",
+      quote: "If at first you didn't succeed, call it version 1.0.",
+      author: "Caelan Huntress",
     },
     {
         id: 23,
@@ -281,6 +281,12 @@ interface MixedQuote {
         category: "Bible Quote",
         quote: "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness, gentleness, and self-control.",
         author: "Galatians 5:22-23",
+      },
+      {
+        id: 46,
+        category: "Development Quote",
+        quote: "Do it unsure, do it tensed, do it tired, do it confused, feel the fear and do It anyway",
+        author: "Susan Jeffers",
       },
   ];
   

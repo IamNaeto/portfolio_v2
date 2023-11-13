@@ -14,13 +14,13 @@ const ProfileBar = () => {
       };
       
     return (
-        <aside className="relative xl:fixed w-full xl:w-[24%] bg-eerie-black rounded-lg border border-jet border-solid shadow-sm shadow-jet py-3 px-5 flex flex-col gap-4 mt-5 md:mt-0">
-            <div className="flex flex-row xl:flex-col items-center justify-start xl:justify-center gap-2">
-                <div className="w-[25%] xl:w-full flex items-center justify-center">
-                    <Image src="/img/Naeto.jpg" width={200} height={200} alt="Charles O. Egesionu Image" className="w-full xl:w-[60%] rounded-lg" loading="lazy"/>
+        <aside className="relative lg:fixed w-full lg:w-[24%] bg-eerie-black rounded-lg border border-jet border-solid shadow-sm shadow-jet py-3 px-5 flex flex-col gap-4 mt-5 md:mt-0">
+            <div className="flex flex-row lg:flex-col items-center justify-start lg:justify-center gap-2">
+                <div className="w-[25%] lg:w-full flex items-center justify-center">
+                    <Image src="/img/Naeto.jpg" width={200} height={200} alt="Charles O. Egesionu Image" className="w-full lg:w-[60%] rounded-lg" loading="lazy"/>
                 </div>
 
-                <div className="flex flex-col items-start xl:items-center gap-2">
+                <div className="flex flex-col items-start lg:items-center gap-2">
                     <h1 className="text-litewhite text-xl md:text-[28px] font-bold text-center">Charles O. Egesionu</h1>
 
                     <h3 className="p-2 rounded-lg bg-smoky-gray text-litewhite text-[13px] md:text-[15px] text-center font-medium">Software Engineer - Frontend</h3>
@@ -28,7 +28,7 @@ const ProfileBar = () => {
                     <a href="" className="py-[6px] px-3 md:px-5 rounded-md text-smoky-black hover:text-vegas-gold bg-vegas-gold hover:bg-smoky-black hover:border-jet border border-solid text-[12px] md:text-[14px] font-bold transition-all delay-200 flex items-center justify-center">Resume <HiOutlineCloudDownload className="ml-1 animate-bounce"/> </a>
                 </div>
             </div>
-            <div className={`${isMenuOpen ? 'flex' : 'hidden'} xl:flex flex-col gap-4`}>
+            <div className={`${isMenuOpen ? 'flex' : 'hidden'} lg:flex flex-col gap-4`}>
                 <div className="flex flex-col gap-2 items-start border-t-[2px] border-b-[2px] border-jet border-solid pt-3 pb-3 overflow-x-hidden">
                     <div className="flex items-center justify-center gap-4">
                         <HiOutlineMail className="p-2 rounded-xl text-vegas-gold bg-smoky-black border border-jet border-solid text-4xl md:text-3xl" />
@@ -64,11 +64,11 @@ const ProfileBar = () => {
             </div>
 
             {isMenuOpen ? 
-            <MdOutlineKeyboardArrowUp className="absolute top-0 right-0 p-2 sm:p-3 text-4xl md:text-5xl text-vegas-gold bg-smoky-black hover:bg-jet rounded-tr-lg rounded-bl-lg shadow-sm shadow-vegas-gold flex xl:hidden cursor-pointer"
+            <MdOutlineKeyboardArrowUp className="absolute top-0 right-0 p-2 sm:p-3 text-4xl md:text-5xl text-vegas-gold bg-smoky-black hover:bg-jet rounded-tr-lg rounded-bl-lg shadow-sm shadow-vegas-gold flex lg:hidden cursor-pointer"
             onClick={toggleMenu}
             />
             :
-            <MdOutlineKeyboardArrowDown className="absolute top-0 right-0 p-2 sm:p-3 text-4xl md:text-5xl text-vegas-gold bg-smoky-black hover:bg-jet rounded-tr-lg rounded-bl-lg shadow-sm shadow-vegas-gold flex xl:hidden cursor-pointer"
+            <MdOutlineKeyboardArrowDown className="absolute top-0 right-0 p-2 sm:p-3 text-4xl md:text-5xl text-vegas-gold bg-smoky-black hover:bg-jet rounded-tr-lg rounded-bl-lg shadow-sm shadow-vegas-gold flex lg:hidden cursor-pointer"
             onClick={toggleMenu}
             />
             }

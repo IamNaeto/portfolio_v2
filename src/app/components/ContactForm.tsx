@@ -28,7 +28,7 @@ interface FormData {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Handle form submission logic 
+    // Handle form submission logic
   };
 
   return (
@@ -41,7 +41,7 @@ interface FormData {
       </div>
 
       <form onSubmit={handleSubmit}>
-        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-1 lg:gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-0 md:gap-5">
           <input
             type="text"
             name="fullName"
@@ -50,6 +50,7 @@ interface FormData {
             placeholder="Full Name"
             className="input shadow-sm shadow-jet"
             required
+            data-aos="fade-down"
           />
           <input
             type="email"
@@ -59,6 +60,7 @@ interface FormData {
             placeholder="Email Address"
             className="input shadow-sm shadow-jet"
             required
+            data-aos="fade-down"
           />
         </div>
         <textarea
@@ -70,6 +72,7 @@ interface FormData {
           placeholder="Your Message"
           className="input shadow-sm shadow-jet"
           required
+          data-aos="fade-down"
         />
 
         <div className="flex items-end justify-end mt-5">
