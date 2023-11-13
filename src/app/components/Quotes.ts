@@ -51,8 +51,8 @@ interface MixedQuote {
     {
       id: 8,
       category: "Life Quote",
-      quote: "Life is really simple, but we insist on making it complicated.",
-      author: "Confucius",
+      quote: "To me, the only sin is mediocrity",
+      author: "Martha Graham",
     },
     {
       id: 9,
@@ -135,7 +135,7 @@ interface MixedQuote {
     {
       id: 22,
       category: "Life Quote",
-      quote: "If at first you didn't successed, call it version one.",
+      quote: "If at first you didn't succeed, call it version one.",
       author: "Unknown Author",
     },
     {

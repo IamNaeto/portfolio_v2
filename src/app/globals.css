@@ -16,3 +16,42 @@
   ::-webkit-scrollbar-thumb {
     background: #FFC254;
   }
+
+
+  .input{
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 1px solid #1e1e1f;
+    background-color: transparent;
+    width: 100%;
+    font-size: 15px;
+    color: rgb(250 250 250);
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+
+  .input:focus:invalid {
+    border: 1px solid #b84c4c;
+  }
+  
+  .input:focus:valid {
+    border: 1px solid #FFC254;
+  }
+
+
+  .btn{
+    background: linear-gradient(
+      to bottom right, 
+      hsl(45, 100%, 71%) 0%, 
+      hsla(36, 100%, 69%, 0) 50%
+    );
+  }
+
+  .button{
+    background: linear-gradient(
+      135deg, 
+      hsla(45, 100%, 71%, 0.251) 0%, 
+      hsla(35, 100%, 68%, 0) 59.86%
+    ), hsl(240, 2%, 13%);
+  }
