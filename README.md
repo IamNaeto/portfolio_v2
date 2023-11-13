@@ -1,5 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- This is my portfolio website bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) + typescript and styled with tailwindcsss.
 
+![image](https://github.com/IamNaeto/portfolio_v2/assets/105589308/9273a771-9b3b-41b5-8986-8033d4d0c999)
+
+![image](https://github.com/IamNaeto/portfolio_v2/assets/105589308/979c3c3d-c60e-474f-a8ad-4176cdd1a062)
+
+- Live Link [Go Live](https://iamnaeto.vercel.app/)
 ## Getting Started
 
 First, run the development server:
