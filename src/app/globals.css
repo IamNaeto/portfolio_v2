@@ -39,15 +39,6 @@
     border: 1px solid #FFC254;
   }
 
-
-  .btn{
-    background: linear-gradient(
-      to bottom right, 
-      hsl(45, 100%, 71%) 0%, 
-      hsla(36, 100%, 69%, 0) 50%
-    );
-  }
-
   .button{
     background: linear-gradient(
       135deg, 
