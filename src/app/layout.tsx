@@ -8,6 +8,10 @@ const raleway = Raleway({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Charles O. Egesionu Portfolio',
   description: 'Software Engineer - Frontend',
+  openGraph: {
+    url: 'https://iamnaeto.vercel.app/',
+    images: 'https://raw.githubusercontent.com/IamNaeto/portfolio_v2/main/public/img/twitter-card.png',
+  },
 }
 
 export default function RootLayout({
