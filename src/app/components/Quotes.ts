@@ -283,10 +283,16 @@ interface MixedQuote {
         author: "Galatians 5:22-23",
       },
       {
-        id: 46,
+        id: 47,
         category: "Development Quote",
         quote: "Do it unsure, do it tensed, do it tired, do it confused, feel the fear and do It anyway",
         author: "Susan Jeffers",
+      },
+      {
+        id: 47,
+        category: "Life Quote",
+        quote: "Commit to the journey, persevere till the end, and savour the victory of finishing what you started",
+        author: "Chat GPT",
       },
   ];
   
