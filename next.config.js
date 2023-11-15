@@ -5,6 +5,6 @@ module.exports = nextConfig
 
 module.exports = {
     publicRuntimeConfig: {
-      metadataBase: 'https://iamnaeto.vercel.app/',
+      metadataBase: 'https://www.iamnaeto.tech',
     },
   };
