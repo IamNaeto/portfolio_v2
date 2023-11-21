@@ -25,7 +25,7 @@ const ProfileBar = () => {
 
                     <h3 className="p-2 rounded-lg bg-smoky-gray text-litewhite text-[13px] md:text-[15px] text-center font-medium">Software Engineer - Frontend</h3>
 
-                    <a href="/resume/Charles O. Egesionu Resume.pdf" target="_blank" download="Charles O. Egesionu Resume.pdf" className="py-[6px] px-3 md:px-5 rounded-md text-smoky-black hover:text-vegas-gold bg-vegas-gold hover:bg-smoky-black hover:border-jet border border-solid text-[12px] md:text-[14px] font-bold transition-all delay-200 flex items-center justify-center">Resume <HiOutlineCloudDownload className="ml-1 animate-bounce"/> </a>
+                    <a href="/resume/Charles Obimnaeto Egesionu Resume.pdf" target="_blank" download="Charles O. Egesionu Resume.pdf" className="py-[6px] px-3 md:px-5 rounded-md text-smoky-black hover:text-vegas-gold bg-vegas-gold hover:bg-smoky-black hover:border-jet border border-solid text-[12px] md:text-[14px] font-bold transition-all delay-200 flex items-center justify-center">Resume <HiOutlineCloudDownload className="ml-1 animate-bounce"/> </a>
                 </div>
             </div>
             <div className={`${isMenuOpen ? 'flex' : 'hidden'} lg:flex flex-col gap-4`}>
