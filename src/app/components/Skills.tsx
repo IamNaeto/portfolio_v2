@@ -2,6 +2,7 @@ import { FaHtml5, FaCss3Alt, FaBootstrap, FaSass, FaReact, FaFigma, FaGithub, Fa
 import { IoLogoJavascript  } from "react-icons/io5";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiTypescript, SiTailwindcss, SiUnocss, SiFirebase, SiPostman, SiPython, SiNpm, SiYarn, SiCanva } from "react-icons/si";
+import { TbBrandVscode } from "react-icons/tb";
 
 const Skills = () => {
     return ( 
@@ -12,32 +13,7 @@ const Skills = () => {
             </div>
 
             <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
-                    <FaHtml5 className="text-3xl text-vegas-gold"/>
-                    <h1 className="text-litewhite text-sm md:text-lg font-bold">HTML</h1>
-               </div>
-
-               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-4 md:px-2" data-aos="fade-down">
-                    <FaCss3Alt className="text-3xl text-vegas-gold"/>
-                    <h1 className="text-litewhite text-sm md:text-lg font-bold">CSS</h1>
-               </div>
-
-               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
-                    <IoLogoJavascript className="text-3xl text-vegas-gold"/>
-                    <h1 className="text-litewhite text-sm md:text-lg font-bold">JavaScript</h1>
-               </div>
-
-               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
-                    <FaBootstrap className="text-3xl text-vegas-gold"/>
-                    <h1 className="text-litewhite text-sm md:text-lg font-bold">Bootstrap</h1>
-               </div>
-
-               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
-                    <FaSass className="text-3xl text-vegas-gold"/>
-                    <h1 className="text-litewhite text-sm md:text-lg font-bold">SASS</h1>
-               </div>
-
-               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
+            <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
                     <FaReact className="text-3xl text-vegas-gold"/>
                     <h1 className="text-litewhite text-sm md:text-lg font-bold">React</h1>
                </div>
@@ -63,6 +39,11 @@ const Skills = () => {
                </div>
 
                <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
+                    <FaSass className="text-3xl text-vegas-gold"/>
+                    <h1 className="text-litewhite text-sm md:text-lg font-bold">SASS</h1>
+               </div>
+
+               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
                     <SiFirebase className="text-3xl text-vegas-gold"/>
                     <h1 className="text-litewhite text-sm md:text-lg font-bold">Firebase</h1>
                </div>
@@ -70,6 +51,36 @@ const Skills = () => {
                <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
                     <SiPostman className="text-3xl text-vegas-gold"/>
                     <h1 className="text-litewhite text-sm md:text-lg font-bold">Postman</h1>
+               </div>
+
+               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
+                    <SiNpm className="text-3xl text-vegas-gold"/>
+                    <h1 className="text-litewhite text-sm md:text-lg font-bold">Npm</h1>
+               </div>
+
+               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
+                    <SiYarn className="text-3xl text-vegas-gold"/>
+                    <h1 className="text-litewhite text-sm md:text-lg font-bold">Yarn</h1>
+               </div>
+
+               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
+                    <FaHtml5 className="text-3xl text-vegas-gold"/>
+                    <h1 className="text-litewhite text-sm md:text-lg font-bold">HTML</h1>
+               </div>
+
+               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-4 md:px-2" data-aos="fade-down">
+                    <FaCss3Alt className="text-3xl text-vegas-gold"/>
+                    <h1 className="text-litewhite text-sm md:text-lg font-bold">CSS</h1>
+               </div>
+
+               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
+                    <IoLogoJavascript className="text-3xl text-vegas-gold"/>
+                    <h1 className="text-litewhite text-sm md:text-lg font-bold">JavaScript</h1>
+               </div>
+
+               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
+                    <FaBootstrap className="text-3xl text-vegas-gold"/>
+                    <h1 className="text-litewhite text-sm md:text-lg font-bold">Bootstrap</h1>
                </div>
 
                <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
@@ -88,13 +99,8 @@ const Skills = () => {
                </div>
 
                <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
-                    <SiNpm className="text-3xl text-vegas-gold"/>
-                    <h1 className="text-litewhite text-sm md:text-lg font-bold">Npm</h1>
-               </div>
-
-               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
-                    <SiYarn className="text-3xl text-vegas-gold"/>
-                    <h1 className="text-litewhite text-sm md:text-lg font-bold">Yarn</h1>
+                    <TbBrandVscode className="text-3xl text-vegas-gold"/>
+                    <h1 className="text-litewhite text-sm md:text-lg font-bold">VS-Code</h1>
                </div>
 
                <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">

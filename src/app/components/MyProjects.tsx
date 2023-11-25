@@ -38,7 +38,7 @@ const MyProjects = () => {
                             src={project.projectImgURL}
                             width={1000}
                             height={1000}
-                            loading="lazy"
+                            loading="eager"
                             alt="project img"
                             className="w-full"
                         />
