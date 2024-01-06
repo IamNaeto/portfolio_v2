@@ -11,8 +11,8 @@ const Socials = () => {
                         <p className="text-gray text-[15px] md:text-[16px] font-bold">Email</p>
                     </div>
                     <a href="mailto:egesionucharlesobimnaeto@gmail.com" target="_blank" className="flex flex-col items-center justify-center gap-2 group">
-                        <p className="text-litewhite text-[11px] md:text-[12px] font-medium">egesionucharlesobimnaeto@gmail.com</p>
-                        <h4 className="text-[13px] md:text-[14px] text-litewhite group-hover:text-vegas-gold transition-all delay-200 font-medium">Send A Mail</h4>
+                        <p className="text-litewhite text-[12px] md:text-[13px] font-medium">egesionucharlesobimnaeto@gmail.com</p>
+                        <h4 className="text-[14px] md:text-[16px] text-litewhite group-hover:text-vegas-gold transition-all delay-200 font-medium">Send A Mail</h4>
                     </a>
                 </div>
 
@@ -22,8 +22,8 @@ const Socials = () => {
                         <p className="text-gray text-[15px] md:text-[16px] font-bold">WhatsApp</p>
                     </div>
                     <a href="https://wa.me/2348178200220" target="_blank" className="flex flex-col items-center justify-center gap-2 group">
-                        <p className="text-litewhite text-[11px] md:text-[12px] font-medium">+234-81-782-002-20</p>
-                        <h4 className="text-[13px] md:text-[14px] text-litewhite group-hover:text-vegas-gold transition-all delay-200 font-medium">Send A Message</h4>
+                        <p className="text-litewhite text-[12px] md:text-[13px] font-medium">+234-81-782-002-20</p>
+                        <h4 className="text-[14px] md:text-[16px] text-litewhite group-hover:text-vegas-gold transition-all delay-200 font-medium">Send A Message</h4>
                     </a>
                 </div>
 
@@ -33,8 +33,8 @@ const Socials = () => {
                         <p className="text-gray text-[15px] md:text-[16px] font-bold">Phone</p>
                     </div>
                     <a href="tel:+2348147371491" target="_blank" className="flex flex-col items-center justify-center gap-2 group">
-                        <p className="text-litewhite text-[11px] md:text-[12px] font-medium">+234-81-473-714-91</p>
-                        <h4 className="text-[13px] md:text-[14px] text-litewhite group-hover:text-vegas-gold transition-all delay-200 font-medium">Place A Call</h4>
+                        <p className="text-litewhite text-[12px] md:text-[13px] font-medium">+234-81-473-714-91</p>
+                        <h4 className="text-[14px] md:text-[16px] text-litewhite group-hover:text-vegas-gold transition-all delay-200 font-medium">Place A Call</h4>
                     </a>
                 </div>
 
@@ -44,7 +44,7 @@ const Socials = () => {
                         <p className="text-gray text-[15px] md:text-[16px] font-bold">Location</p>
                     </div>
 
-                    <h4 className="text-[13px] md:text-[14px] text-litewhite transition-all delay-200 font-medium">Imo State, Nigeria</h4>
+                    <h4 className="text-[14px] md:text-[16px] text-litewhite transition-all delay-200 font-medium">Imo State, Nigeria</h4>
                 </div>
         </main>
      );

@@ -27,13 +27,13 @@ const WordsonMarble = () => {
       </div>
 
       <div className="relative w-full bg-eerie-black rounded-lg border border-jet border-solid shadow-sm shadow-jet p-5 flex flex-col gap-5 text-center">
-        <h3 className="text-[16px] md:text-[17px] text-litewhite font-bold" data-aos="fade-down">
+        <h3 className="text-[16px] md:text-[18px] text-litewhite font-bold" data-aos="fade-down">
           {currentQuote.category}
         </h3>
-        <p className="text-[13px] md:text-[15px] text-litewhite" data-aos="fade-down">
+        <p className="text-[14px] md:text-[16px] text-litewhite" data-aos="fade-down">
           {currentQuote.quote}
         </p>
-        <h3 className="text-[15px] md:text-[16px] text-vegas-gold font-bold font-italic" data-aos="fade-down">
+        <h3 className="text-[16px] md:text-[18px] text-vegas-gold font-bold font-italic" data-aos="fade-down">
           {currentQuote.author}
         </h3>
       </div>

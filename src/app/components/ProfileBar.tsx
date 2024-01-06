@@ -23,7 +23,7 @@ const ProfileBar = () => {
                 <div className="flex flex-col items-start lg:items-center gap-2">
                     <h1 className="text-litewhite text-xl md:text-[28px] font-bold text-center">Charles O. Egesionu</h1>
 
-                    <h3 className="p-2 rounded-lg bg-smoky-gray text-litewhite text-[13px] md:text-[15px] text-center font-medium">Software Engineer - Frontend</h3>
+                    <h3 className="p-2 rounded-lg bg-smoky-gray text-litewhite text-[14px] md:text-[16px] text-center font-medium">Software Engineer - Frontend</h3>
 
                     <a href="/resume/Charles Obimnaeto Egesionu Resume.pdf" target="_blank" download="Charles O. Egesionu Resume.pdf" className="py-[6px] px-3 md:px-5 rounded-md text-smoky-black hover:text-vegas-gold bg-vegas-gold hover:bg-smoky-black hover:border-jet border border-solid text-[12px] md:text-[14px] font-bold transition-all delay-200 flex items-center justify-center">Resume <HiOutlineCloudDownload className="ml-1 animate-bounce"/> </a>
                 </div>
@@ -34,21 +34,21 @@ const ProfileBar = () => {
                         <HiOutlineMail className="p-2 rounded-xl text-vegas-gold bg-smoky-black border border-jet border-solid text-4xl md:text-3xl" />
                         <a href="mailto:egesionucharlesobimnaeto@gmail.com" target="_blank">
                             <p className="text-gray text-[12px] font-bold">Email</p>
-                            <h4 className="text-[11px] text-litewhite">egesionucharlesobimnaeto@gmail.com</h4>
+                            <h4 className="text-[12px] text-litewhite">egesionucharlesobimnaeto@gmail.com</h4>
                         </a>
                     </div>
                     <div className="flex items-center justify-center gap-4">
                         <HiOutlineDevicePhoneMobile className="p-2 rounded-xl text-vegas-gold bg-smoky-black border border-jet border-solid text-4xl md:text-3xl" />
                         <a href="tel:+2348147371491" target="_blank">
                             <p className="text-gray text-[12px] font-bold">Phone</p>
-                            <h4 className="text-[11px] text-litewhite">+2348147371491</h4>
+                            <h4 className="text-[12px] text-litewhite">+2348147371491</h4>
                         </a>
                     </div>
                     <div className="flex items-center justify-center gap-4">
                         <HiOutlineMapPin className="p-2 rounded-xl text-vegas-gold bg-smoky-black border border-jet border-solid text-4xl md:text-3xl" />
                         <div>
                             <p className="text-gray text-[12px] font-bold">Location</p>
-                            <h4 className="text-[11px] text-litewhite">Imo State, Nigeria</h4>
+                            <h4 className="text-[12px] text-litewhite">Imo State, Nigeria</h4>
                         </div>
                     </div>
 

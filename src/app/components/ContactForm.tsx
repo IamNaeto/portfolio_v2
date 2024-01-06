@@ -66,7 +66,7 @@ interface FormData {
         <div className="bg-vegas-gold h-[5px] w-[60px] rounded-full" data-aos="fade-down"></div>
       </div>
 
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className='text-[14px] md:text-[16px]'>
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-0 md:gap-5">
           <input
             type="text"
