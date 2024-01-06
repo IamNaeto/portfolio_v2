@@ -1,5 +1,9 @@
 import { useState } from 'react';
 import { IoIosSend } from "react-icons/io";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { TbLoader3 } from "react-icons/tb";
+import { GrStatusGood } from "react-icons/gr";
 
 interface FormData {
     fullName: string;
@@ -13,6 +17,7 @@ interface FormData {
       emailAddress: '',
       message: '',
     });
+    const [isLoading, setIsLoading] = useState(false)
 
   const isFormValid = () => {
     return formData.fullName !== '' && formData.emailAddress !== '' && formData.message !== '';
@@ -26,13 +31,34 @@ interface FormData {
     }));
   };
 
+  const clearForm = () =>{
+    setFormData({
+      fullName: '',
+      emailAddress: '',
+      message: '',
+    })
+  }
+
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    setIsLoading(true)
+
+    setTimeout(() => {
+      console.log(formData)
+      toast.success("Message sent successfully!", {
+        progressStyle: { background: '#FFC254' },
+        style: {color: '#121212' },
+        icon: <GrStatusGood className="text-xl"/>   })
+      clearForm()
+      setIsLoading(false)
+    }, 2000);
     // Handle form submission logic
   };
 
   return (
     <section className="flex flex-col gap-5">
+      <ToastContainer />
       <div className="flex flex-col gap-2">
         <h1 className="text-2xl md:text-[28px] font-bold text-litewhite" data-aos="fade-down">
           Contact Form
@@ -83,7 +109,8 @@ interface FormData {
             }`}
             disabled={!isFormValid()}
           >
-            <IoIosSend className="text-2xl"/> Send Message
+            {isLoading ? <TbLoader3 className="animate-spin text-2xl"/> : <IoIosSend className="text-2xl" />}
+            {"Send Message"}
           </button>
         </div>
       </form>

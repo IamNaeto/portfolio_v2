@@ -46,3 +46,8 @@
       hsla(35, 100%, 68%, 0) 59.86%
     ), hsl(240, 2%, 13%);
   }
+
+  .custom-icon {
+    color: #ffc254 !important; /* Use !important to override any inline or default styles */
+  }
+  
