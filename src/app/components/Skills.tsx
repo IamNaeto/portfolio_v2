@@ -1,8 +1,9 @@
-import { FaHtml5, FaCss3Alt, FaBootstrap, FaSass, FaReact, FaFigma, FaGithub, FaGitAlt } from "react-icons/fa6";
+import { FaHtml5, FaCss3Alt, FaBootstrap, FaSass, FaReact, FaFigma, FaGithub, FaGitAlt, FaNodeJs } from "react-icons/fa6";
 import { IoLogoJavascript  } from "react-icons/io5";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiTypescript, SiTailwindcss, SiUnocss, SiFirebase, SiPostman, SiPython, SiNpm, SiYarn, SiCanva } from "react-icons/si";
+import { SiTypescript, SiTailwindcss, SiUnocss, SiFirebase, SiPostman, SiNpm, SiYarn, SiCanva, SiFramer } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
+import { DiFirebase } from "react-icons/di";
 
 const Skills = () => {
     return ( 
@@ -42,12 +43,25 @@ const Skills = () => {
                     <FaSass className="text-3xl text-vegas-gold"/>
                     <h1 className="text-litewhite text-sm md:text-lg font-bold">SASS</h1>
                </div>
+               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
+                    <SiFramer className="text-3xl text-vegas-gold"/>
+                    <h1 className="text-litewhite text-sm md:text-lg font-bold">Framer-Motion</h1>
+               </div>
 
                <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
                     <SiFirebase className="text-3xl text-vegas-gold"/>
                     <h1 className="text-litewhite text-sm md:text-lg font-bold">Firebase</h1>
                </div>
+               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
+                    <DiFirebase className="text-3xl text-vegas-gold"/>
+                    <h1 className="text-litewhite text-sm md:text-lg font-bold">Firestore</h1>
+               </div>
 
+               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
+                    <FaNodeJs className="text-3xl text-vegas-gold"/>
+                    <h1 className="text-litewhite text-sm md:text-lg font-bold">NodeJS</h1>
+               </div>
+               
                <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
                     <SiPostman className="text-3xl text-vegas-gold"/>
                     <h1 className="text-litewhite text-sm md:text-lg font-bold">Postman</h1>
@@ -55,7 +69,7 @@ const Skills = () => {
 
                <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
                     <SiNpm className="text-3xl text-vegas-gold"/>
-                    <h1 className="text-litewhite text-sm md:text-lg font-bold">Npm</h1>
+                    <h1 className="text-litewhite text-sm md:text-lg font-bold">NPM</h1>
                </div>
 
                <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
@@ -81,11 +95,6 @@ const Skills = () => {
                <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
                     <FaBootstrap className="text-3xl text-vegas-gold"/>
                     <h1 className="text-litewhite text-sm md:text-lg font-bold">Bootstrap</h1>
-               </div>
-
-               <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
-                    <SiPython className="text-3xl text-vegas-gold"/>
-                    <h1 className="text-litewhite text-sm md:text-lg font-bold">Python</h1>
                </div>
 
                <div className="flex items-center justify-start sm:justify-center gap-2 sm:gap-5 shadow-sm shadow-jet rounded-lg border border-jet border-solid p-3 md:py-5 md:px-2" data-aos="fade-down">
