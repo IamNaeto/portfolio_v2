@@ -41,7 +41,7 @@ interface ProjectDataTypes {
         projectImgURL: "/img/movieshowbox.png",
         projectTitle: "Music Box",
         ProjectAbout: "A dynamic movie discovery web application that allows users to search for movies, view details about them, and save their favorite movies.",
-        stack: "React | Vite | UnoCSS | API",
+        stack: "React | Vite | UnoCSS | IMDB API",
         projectGithubURL: "https://github.com/IamNaeto/moviebox",
         projectLiveURL: "https://movieshowbox.vercel.app/",
     },
