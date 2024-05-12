@@ -89,20 +89,6 @@ const ContactForm: React.FC = () => {
     setIsLoading(false);
   };
 
-
-  //hCaptcha code blocks
-  const onLoad = () => {
-    if (captchaRef.current) {
-      captchaRef.current.execute(); // Execute hCaptcha when the component loads
-    }
-  };
-
-  useEffect(() => {
-    if (token) {
-      console.log(`hCaptcha Token: ${token}`);
-    }
-  }, [token]);
-
   
   return (
     <section className="flex flex-col gap-5">
@@ -152,7 +138,6 @@ const ContactForm: React.FC = () => {
         <div className="flex items-end justify-end" data-aos="fade-up">
           <HCaptcha
             sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"
-            onLoad={onLoad}
             reCaptchaCompat={false}
             onVerify={setToken}
             ref={captchaRef}
