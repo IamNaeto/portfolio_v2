@@ -60,7 +60,7 @@ const ContactForm: React.FC = () => {
     formDatas.append("fullName", formData.fullName);
     formDatas.append("emailAddress", formData.emailAddress);
     formDatas.append("message", formData.message);
-    formDatas.append("hCaptchaToken", token || '');
+    // formDatas.append("hCaptchaToken", token || '');
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
