@@ -21,8 +21,8 @@ const Socials = () => {
                         <FaWhatsapp className="p-2 rounded-xl text-vegas-gold bg-smoky-black border border-jet border-solid text-4xl" />
                         <p className="text-gray text-[15px] md:text-[16px] font-bold">WhatsApp</p>
                     </div>
-                    <a href="https://wa.me/2348178200220" target="_blank" className="flex flex-col items-center justify-center gap-2 group">
-                        <p className="text-litewhite text-[12px] md:text-[13px] font-medium">+234-81-782-002-20</p>
+                    <a href="https://wa.me/2348147371491" target="_blank" className="flex flex-col items-center justify-center gap-2 group">
+                        <p className="text-litewhite text-[12px] md:text-[13px] font-medium">+234-81-473-714-91</p>
                         <h4 className="text-[14px] md:text-[16px] text-litewhite group-hover:text-vegas-gold transition-all delay-200 font-medium">Send A Message</h4>
                     </a>
                 </div>
